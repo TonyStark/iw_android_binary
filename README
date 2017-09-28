@@ -1,0 +1,22 @@
+   1. Install Android NDK:
+      Get the official Android NDK from http://developer.android.com/tools/sdk/ndk/index.html
+      (For Windows, Cygwin 1.7 or higher is required)
+      Add the root directory of the unpacked Android NDK to your PATH variable
+
+   2. Run "ndk-build" in android_buildchain directory
+      More Android NDK parameters:
+      "ndk-build clean" (delete generated libs)
+      "ndk-build -B V=1 NDK_DEBUG=1 NDK_LOG=1" (force complete rebuild (-B), showing commands and enable debug and logs from android ndk)
+Source code=https://github.com/imlinhao/android-iw-libnl3
+========================
+Binary located in libs folder
+Compiled for:: 
+	* mips
+	* x86
+	* armeabi
+	* armeabi-v7a
+	* mips64
+	* x86_64
+	* arm64-v8a
+Platform version: 24
+Toolchain: r14
